@@ -5,10 +5,11 @@ public class Main {
         Product[] productsList = new Product[5];
         int size = 0;
 
+        JOptionPane.showMessageDialog(null, "Tu almacén cuenta con 5 espacios." +
+                        "\n A continuación, el menú.", "Bienvenido",
+                JOptionPane.INFORMATION_MESSAGE);
+
         while (true) {
-            JOptionPane.showMessageDialog(null, "Tu almacén cuenta con 5 espacios." +
-                            "\n A continuación, el menú.", "Bienvenido",
-                    JOptionPane.INFORMATION_MESSAGE);
 
             String input = JOptionPane.showInputDialog(null, """
                             Por favor ingrese una opción.\
